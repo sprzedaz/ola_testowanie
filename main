@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Koty - moje ulubione zwierzęta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Koty</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#ras">Rasy kotów</a></li>
+                <li><a href="#zdjecia">Zdjęcia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="historia">
+            <h2>Historia kotów</h2>
+            <p>Koty są jednymi z najstarszych zwierząt domowych na świecie. Ich historia sięga aż do starożytnego Egiptu, gdzie były uważane za święte zwierzęta i czczono je jako symbole płodności i szczęścia.</p>
+            <p>W Europie koty pojawiły się w średniowieczu, a ich popularność rosła wraz z rozwojem miast i osiedli miejskich. Dziś koty są jednymi z najpopularniejszych zwierząt domowych na świecie.</p>
+        </section>
+        <section id="ras">
+            <h2>Rasy kotów</h2>
+            <p>Istnieje wiele różnych ras kotów, każda z nich charakteryzuje się innym wyglądem, temperamentem i potrzebami.</p>
+            <ul>
+                <li><strong>Pers</strong> - charakteryzuje się długim, jedwabistym futrem i krótkim nosem</li>
+                <li><strong>Syjamski</strong> - ma charakterystyczne, niebieskie oczy i ciemne uszy, ogon i łapy</li>
+                <li><strong>Maine Coon</strong> - jest to największa rasa kota domowego, charakteryzuje się długim futrem i dużymi uszami</li>
+            </ul>
+        </section>
+        <section id="zdjecia">
+            <h2>Zdjęcia kotów</h2>
+            <p>Poniżej znajdują się zdjęcia kotów, które zostały przesłane przez naszych czytelników.</p>
+            <div class="gallery">
+                <img src="https://placekitten.com/200/300" alt="kotek">
+                <img src="https://placekitten.com/250/350" alt="kotek">
+                <img src="https://placekitten.com/300/400" alt="kotek">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Strona o kotach - &copy; 2023</p>
+    </footer>
+</body>
+</html>
